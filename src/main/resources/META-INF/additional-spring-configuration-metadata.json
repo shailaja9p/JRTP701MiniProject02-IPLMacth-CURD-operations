@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "plan.module.messages.save-success",
+    "type": "java.lang.String",
+    "description": "A description for 'plan.module.messages.save-success'"
+  },
+  {
+    "name": "plan.module.messages.save-failure",
+    "type": "java.lang.String",
+    "description": "A description for 'plan.module.messages.save-failure'"
+  }
+]}

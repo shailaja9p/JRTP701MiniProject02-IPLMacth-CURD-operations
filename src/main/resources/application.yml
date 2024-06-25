@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: IPIL-MiniProject-CURDOperations
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:test1db
+  jpa:
+    show-sql: true
+server:
+  port: 4041
+  
+plan:
+    module:
+        messages:
+            save-success: Team is saved with
+            save-failure: Problem in saving team
+            find-by-id-failure: requested team id is not found
+            update-success: team is updated
+            update-failure: id is not found for updation
+            delete-success: team is deleted
+            delete-failure: id is not found for deletion
+            venue-change-success: Team venue is changed successfully
+            venue-change-failure: id is not found for venue changed
